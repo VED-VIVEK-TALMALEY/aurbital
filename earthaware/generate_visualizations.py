@@ -84,7 +84,7 @@ def render_dashboard():
     metrics, trained = get_eval_metrics()
 
     fig, axes = plt.subplots(2, 2, figsize=(13, 9))
-    fig.suptitle("Aurbital (Aurbital) — Training & Evaluation Dashboard",
+    fig.suptitle("Aurbital — Training & Evaluation Dashboard",
                  fontsize=15, fontweight="bold", y=0.98)
 
     # (1) Loss curves
