@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Models (too large for git — checkpoints stay local)
+checkpoints/
+models/
+outputs/
+logs/
+
+# NOTE: data/raw IS tracked (EuroSAT samples 448K + Sentinel-2 npy 8MB are small enough)
+
+# Legacy / junk
+error_undertaken.md
+help.txt
+
+# Logs & Metrics
+logs/
+metrics/
+results/
+*.log
+
+# Node (Full stack app)
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+
+# Runtime artifacts (Dynamic data)
+earthaware/geo-research-assistant/backend/runtime_artifacts/
+geo-research-assistant/backend/runtime_artifacts/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+# EarthAware Project Metrics
+
+## Training Metrics (isro_eo_enhanced)
+- **Best Validation Loss:** 3.51385
+- **Final Train Loss (Epoch 7):** 3.30374
+- **Final Validation Loss (Epoch 7):** 3.57021
+- **Epochs Completed:** 7
+- **Global Steps:** 315
+
+## Evaluation Metrics (Comprehensive)
+- **NDVI Average Error (Trained):** 0.0589
+- **NDVI Coverage (Trained):** 85.0%
+- **NDVI Coverage (Baseline):** 0.0%
+- **NDVI Usage (Trained):** 85.0%
+- **NIR Usage (Trained):** 15.0%
+- **Reflectance Usage (Trained):** 65.0%
+
+## Repository Statistics
+- **Number of Commits:** 6
+- **Number of Files:** 48 (Tracked in root) + ~100 (in earthaware subproject)
+- **Approximate Lines of Code (LOC):** 46,448

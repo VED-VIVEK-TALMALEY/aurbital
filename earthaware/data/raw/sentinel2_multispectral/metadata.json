@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 0,
+    "land_cover": "forest",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0000_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0000_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0000_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0000_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0000_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0000_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0000_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0000_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0000_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0000_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0000_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0000_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0000_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.8510047432916013,
+      "NDWI": -0.8242631294522409,
+      "NDBI": -0.28659257788132086
+    }
+  },
+  {
+    "id": 1,
+    "land_cover": "forest",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0001_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0001_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0001_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0001_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0001_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0001_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0001_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0001_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0001_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0001_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0001_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0001_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0001_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.8480058629475128,
+      "NDWI": -0.8230968341584396,
+      "NDBI": -0.28845886680558186
+    }
+  },
+  {
+    "id": 2,
+    "land_cover": "forest",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0002_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0002_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0002_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0002_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0002_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0002_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0002_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0002_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0002_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0002_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0002_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0002_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0002_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.852219469699752,
+      "NDWI": -0.8268050191379172,
+      "NDBI": -0.2910563504399397
+    }
+  },
+  {
+    "id": 3,
+    "land_cover": "forest",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0003_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0003_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0003_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0003_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0003_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0003_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0003_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0003_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0003_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0003_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0003_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0003_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0003_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.8498748217580754,
+      "NDWI": -0.8296386731159143,
+      "NDBI": -0.2897875056651231
+    }
+  },
+  {
+    "id": 4,
+    "land_cover": "forest",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0004_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0004_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0004_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0004_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0004_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0004_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0004_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0004_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0004_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0004_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0004_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0004_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0004_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.8478686933079891,
+      "NDWI": -0.8266189932487131,
+      "NDBI": -0.2882935812955407
+    }
+  },
+  {
+    "id": 5,
+    "land_cover": "forest",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0005_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0005_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0005_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0005_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0005_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0005_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0005_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0005_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0005_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0005_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0005_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0005_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0005_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.8489627807812695,
+      "NDWI": -0.824890753111706,
+      "NDBI": -0.2900089940533506
+    }
+  },
+  {
+    "id": 6,
+    "land_cover": "forest",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0006_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0006_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0006_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0006_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0006_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0006_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0006_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0006_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0006_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0006_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0006_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0006_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0006_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.8551771351090047,
+      "NDWI": -0.8245658166917313,
+      "NDBI": -0.29014375733957376
+    }
+  },
+  {
+    "id": 7,
+    "land_cover": "forest",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0007_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0007_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0007_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0007_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0007_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0007_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0007_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0007_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0007_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0007_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0007_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0007_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0007_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.8523167865144768,
+      "NDWI": -0.8225551609793937,
+      "NDBI": -0.2886188796725352
+    }
+  },
+  {
+    "id": 8,
+    "land_cover": "forest",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0008_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0008_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0008_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0008_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0008_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0008_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0008_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0008_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0008_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0008_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0008_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0008_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0008_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.8515433728726851,
+      "NDWI": -0.8234704181479178,
+      "NDBI": -0.28894272449156444
+    }
+  },
+  {
+    "id": 9,
+    "land_cover": "forest",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0009_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0009_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0009_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0009_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0009_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0009_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0009_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0009_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0009_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0009_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0009_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0009_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0009_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.8560550039908368,
+      "NDWI": -0.8258305750251004,
+      "NDBI": -0.28776140373764203
+    }
+  },
+  {
+    "id": 10,
+    "land_cover": "water",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0010_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0010_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0010_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0010_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0010_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0010_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0010_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0010_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0010_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0010_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0010_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0010_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0010_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": -0.5462155119330889,
+      "NDWI": 0.6857879308293646,
+      "NDBI": -0.0651471492460735
+    }
+  },
+  {
+    "id": 11,
+    "land_cover": "water",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0011_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0011_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0011_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0011_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0011_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0011_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0011_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0011_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0011_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0011_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0011_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0011_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0011_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": -0.5387326142986877,
+      "NDWI": 0.6823869459653793,
+      "NDBI": -0.07744745378591032
+    }
+  },
+  {
+    "id": 12,
+    "land_cover": "water",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0012_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0012_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0012_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0012_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0012_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0012_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0012_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0012_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0012_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0012_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0012_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0012_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0012_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": -0.5521943603579769,
+      "NDWI": 0.6854499751059013,
+      "NDBI": -0.07616789175251436
+    }
+  },
+  {
+    "id": 13,
+    "land_cover": "water",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0013_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0013_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0013_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0013_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0013_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0013_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0013_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0013_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0013_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0013_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0013_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0013_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0013_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": -0.5280260450513674,
+      "NDWI": 0.6793118364432131,
+      "NDBI": -0.10264846573195413
+    }
+  },
+  {
+    "id": 14,
+    "land_cover": "water",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0014_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0014_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0014_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0014_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0014_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0014_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0014_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0014_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0014_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0014_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0014_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0014_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0014_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": -0.5346206328311086,
+      "NDWI": 0.6804926381116853,
+      "NDBI": -0.08481676725423348
+    }
+  },
+  {
+    "id": 15,
+    "land_cover": "water",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0015_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0015_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0015_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0015_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0015_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0015_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0015_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0015_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0015_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0015_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0015_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0015_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0015_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": -0.539879973056648,
+      "NDWI": 0.6800572320753681,
+      "NDBI": -0.07936806051673219
+    }
+  },
+  {
+    "id": 16,
+    "land_cover": "water",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0016_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0016_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0016_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0016_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0016_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0016_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0016_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0016_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0016_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0016_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0016_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0016_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0016_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": -0.5312127527886292,
+      "NDWI": 0.6802533054109967,
+      "NDBI": -0.08955778419908289
+    }
+  },
+  {
+    "id": 17,
+    "land_cover": "water",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0017_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0017_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0017_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0017_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0017_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0017_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0017_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0017_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0017_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0017_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0017_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0017_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0017_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": -0.5344080460958316,
+      "NDWI": 0.6846185458007463,
+      "NDBI": -0.09218114904576394
+    }
+  },
+  {
+    "id": 18,
+    "land_cover": "water",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0018_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0018_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0018_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0018_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0018_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0018_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0018_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0018_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0018_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0018_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0018_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0018_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0018_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": -0.5293019819431168,
+      "NDWI": 0.6802562645812161,
+      "NDBI": -0.08109854658975063
+    }
+  },
+  {
+    "id": 19,
+    "land_cover": "water",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0019_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0019_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0019_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0019_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0019_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0019_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0019_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0019_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0019_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0019_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0019_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0019_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0019_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": -0.5462275649887125,
+      "NDWI": 0.6832863215794442,
+      "NDBI": -0.09411786443399588
+    }
+  },
+  {
+    "id": 20,
+    "land_cover": "urban",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0020_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0020_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0020_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0020_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0020_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0020_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0020_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0020_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0020_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0020_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0020_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0020_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0020_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.22262642136491922,
+      "NDWI": -0.3109493851447729,
+      "NDBI": 0.06809043761826089
+    }
+  },
+  {
+    "id": 21,
+    "land_cover": "urban",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0021_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0021_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0021_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0021_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0021_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0021_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0021_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0021_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0021_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0021_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0021_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0021_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0021_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.22158984260931203,
+      "NDWI": -0.3127246798192542,
+      "NDBI": 0.06796912272824542
+    }
+  },
+  {
+    "id": 22,
+    "land_cover": "urban",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0022_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0022_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0022_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0022_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0022_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0022_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0022_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0022_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0022_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0022_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0022_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0022_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0022_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.2232767272902509,
+      "NDWI": -0.3105215896884581,
+      "NDBI": 0.06972683112198445
+    }
+  },
+  {
+    "id": 23,
+    "land_cover": "urban",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0023_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0023_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0023_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0023_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0023_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0023_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0023_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0023_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0023_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0023_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0023_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0023_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0023_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.22074947063991754,
+      "NDWI": -0.3132006081393769,
+      "NDBI": 0.06732615986041038
+    }
+  },
+  {
+    "id": 24,
+    "land_cover": "urban",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0024_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0024_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0024_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0024_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0024_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0024_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0024_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0024_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0024_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0024_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0024_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0024_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0024_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.22264193483374867,
+      "NDWI": -0.3136151455533616,
+      "NDBI": 0.0680215165858607
+    }
+  },
+  {
+    "id": 25,
+    "land_cover": "urban",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0025_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0025_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0025_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0025_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0025_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0025_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0025_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0025_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0025_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0025_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0025_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0025_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0025_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.22457484245189943,
+      "NDWI": -0.3098131960276906,
+      "NDBI": 0.067434880047441
+    }
+  },
+  {
+    "id": 26,
+    "land_cover": "urban",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0026_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0026_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0026_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0026_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0026_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0026_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0026_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0026_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0026_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0026_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0026_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0026_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0026_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.22311411917240487,
+      "NDWI": -0.3144612543312265,
+      "NDBI": 0.06647706083350179
+    }
+  },
+  {
+    "id": 27,
+    "land_cover": "urban",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0027_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0027_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0027_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0027_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0027_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0027_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0027_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0027_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0027_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0027_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0027_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0027_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0027_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.22533364835118536,
+      "NDWI": -0.3118377413596078,
+      "NDBI": 0.06880642846832044
+    }
+  },
+  {
+    "id": 28,
+    "land_cover": "urban",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0028_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0028_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0028_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0028_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0028_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0028_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0028_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0028_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0028_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0028_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0028_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0028_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0028_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.2219838318928937,
+      "NDWI": -0.3036005191486506,
+      "NDBI": 0.07317851092735495
+    }
+  },
+  {
+    "id": 29,
+    "land_cover": "urban",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0029_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0029_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0029_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0029_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0029_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0029_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0029_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0029_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0029_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0029_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0029_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0029_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0029_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.22052830833530399,
+      "NDWI": -0.3127382238116481,
+      "NDBI": 0.06766094099407824
+    }
+  },
+  {
+    "id": 30,
+    "land_cover": "agriculture",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0030_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0030_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0030_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0030_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0030_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0030_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0030_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0030_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0030_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0030_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0030_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0030_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0030_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.7739948280677191,
+      "NDWI": -0.7385061477962203,
+      "NDBI": -0.29344846120818857
+    }
+  },
+  {
+    "id": 31,
+    "land_cover": "agriculture",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0031_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0031_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0031_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0031_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0031_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0031_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0031_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0031_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0031_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0031_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0031_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0031_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0031_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.7720133602285749,
+      "NDWI": -0.7442381243028429,
+      "NDBI": -0.29314186965162803
+    }
+  },
+  {
+    "id": 32,
+    "land_cover": "agriculture",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0032_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0032_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0032_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0032_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0032_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0032_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0032_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0032_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0032_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0032_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0032_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0032_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0032_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.7779969479526496,
+      "NDWI": -0.7464023377999907,
+      "NDBI": -0.2980358004017574
+    }
+  },
+  {
+    "id": 33,
+    "land_cover": "agriculture",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0033_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0033_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0033_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0033_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0033_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0033_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0033_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0033_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0033_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0033_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0033_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0033_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0033_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.7784582662766547,
+      "NDWI": -0.7427664414254236,
+      "NDBI": -0.2900954750804872
+    }
+  },
+  {
+    "id": 34,
+    "land_cover": "agriculture",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0034_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0034_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0034_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0034_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0034_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0034_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0034_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0034_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0034_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0034_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0034_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0034_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0034_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.777603325996171,
+      "NDWI": -0.7427568587134324,
+      "NDBI": -0.29639581761710315
+    }
+  },
+  {
+    "id": 35,
+    "land_cover": "agriculture",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0035_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0035_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0035_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0035_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0035_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0035_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0035_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0035_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0035_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0035_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0035_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0035_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0035_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.7733089845725408,
+      "NDWI": -0.7391107250173072,
+      "NDBI": -0.2930798178774259
+    }
+  },
+  {
+    "id": 36,
+    "land_cover": "agriculture",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0036_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0036_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0036_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0036_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0036_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0036_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0036_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0036_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0036_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0036_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0036_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0036_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0036_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.77615442290877,
+      "NDWI": -0.7432905943148522,
+      "NDBI": -0.29341413524233795
+    }
+  },
+  {
+    "id": 37,
+    "land_cover": "agriculture",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0037_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0037_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0037_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0037_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0037_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0037_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0037_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0037_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0037_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0037_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0037_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0037_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0037_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.77615609280284,
+      "NDWI": -0.7396832023308629,
+      "NDBI": -0.296708849540923
+    }
+  },
+  {
+    "id": 38,
+    "land_cover": "agriculture",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0038_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0038_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0038_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0038_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0038_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0038_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0038_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0038_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0038_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0038_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0038_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0038_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0038_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.7751686495693103,
+      "NDWI": -0.743687717579407,
+      "NDBI": -0.29562810039362847
+    }
+  },
+  {
+    "id": 39,
+    "land_cover": "agriculture",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0039_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0039_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0039_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0039_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0039_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0039_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0039_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0039_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0039_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0039_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0039_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0039_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0039_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.7739351237097936,
+      "NDWI": -0.7440429508732034,
+      "NDBI": -0.2973871483679148
+    }
+  },
+  {
+    "id": 40,
+    "land_cover": "bare_soil",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0040_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0040_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0040_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0040_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0040_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0040_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0040_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0040_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0040_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0040_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0040_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0040_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0040_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.20591934416743102,
+      "NDWI": -0.3113897584020997,
+      "NDBI": 0.08050071389484013
+    }
+  },
+  {
+    "id": 41,
+    "land_cover": "bare_soil",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0041_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0041_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0041_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0041_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0041_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0041_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0041_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0041_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0041_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0041_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0041_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0041_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0041_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.20605721852745218,
+      "NDWI": -0.3069838833392068,
+      "NDBI": 0.07605946726970943
+    }
+  },
+  {
+    "id": 42,
+    "land_cover": "bare_soil",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0042_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0042_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0042_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0042_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0042_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0042_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0042_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0042_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0042_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0042_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0042_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0042_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0042_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.21176484278971264,
+      "NDWI": -0.3146225977843863,
+      "NDBI": 0.07427223755093183
+    }
+  },
+  {
+    "id": 43,
+    "land_cover": "bare_soil",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0043_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0043_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0043_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0043_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0043_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0043_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0043_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0043_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0043_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0043_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0043_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0043_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0043_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.20297219363903857,
+      "NDWI": -0.3031962984505151,
+      "NDBI": 0.08087912162911477
+    }
+  },
+  {
+    "id": 44,
+    "land_cover": "bare_soil",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0044_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0044_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0044_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0044_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0044_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0044_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0044_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0044_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0044_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0044_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0044_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0044_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0044_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.2032106947209973,
+      "NDWI": -0.3041662655919359,
+      "NDBI": 0.07940142197455335
+    }
+  },
+  {
+    "id": 45,
+    "land_cover": "bare_soil",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0045_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0045_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0045_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0045_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0045_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0045_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0045_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0045_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0045_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0045_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0045_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0045_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0045_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.19864060228127967,
+      "NDWI": -0.3046416539884671,
+      "NDBI": 0.0787658614086788
+    }
+  },
+  {
+    "id": 46,
+    "land_cover": "bare_soil",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0046_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0046_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0046_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0046_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0046_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0046_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0046_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0046_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0046_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0046_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0046_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0046_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0046_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.20844219212845394,
+      "NDWI": -0.31086641092758266,
+      "NDBI": 0.07689420053952686
+    }
+  },
+  {
+    "id": 47,
+    "land_cover": "bare_soil",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0047_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0047_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0047_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0047_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0047_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0047_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0047_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0047_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0047_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0047_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0047_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0047_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0047_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.20880644376111154,
+      "NDWI": -0.3134301456475679,
+      "NDBI": 0.08053489076871422
+    }
+  },
+  {
+    "id": 48,
+    "land_cover": "bare_soil",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0048_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0048_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0048_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0048_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0048_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0048_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0048_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0048_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0048_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0048_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0048_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0048_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0048_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.20420385560519616,
+      "NDWI": -0.31014444830235216,
+      "NDBI": 0.07647791936089164
+    }
+  },
+  {
+    "id": 49,
+    "land_cover": "bare_soil",
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0049_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0049_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0049_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0049_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0049_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0049_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0049_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0049_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0049_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0049_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0049_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0049_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0049_B12.npy"
+    },
+    "spectral_indices": {
+      "NDVI": 0.1999689041634572,
+      "NDWI": -0.30924207407377224,
+      "NDBI": 0.07743787600767991
+    }
+  }
+]

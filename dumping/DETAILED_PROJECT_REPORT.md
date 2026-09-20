@@ -1,0 +1,355 @@
+# DETAILED_PROJECT_REPORT.md
+
+## 1) Project Purpose
+`earthaware` is a geospatial AI research project that combines:
+- EO model training (multispectral + VLM style)
+- local Python model serving (`api_server.py`)
+- geospatial web app (`geo-research-assistant`) with 3D map + research chat
+- evaluation outputs and metrics tracking
+
+The repository now has two major runtime paths:
+1. **Python pipeline path** (training + inference server)
+2. **Node/React product path** (map UI + backend orchestration + auth/dashboard)
+
+---
+
+## 2) High-Level Architecture
+
+### 2.1 Python ML stack (root `earthaware/`)
+- Data creation / preprocessing scripts (`day2_*`, `day3_*`)
+- Model definitions (`day4_multimodal_model.py`, `day3_*` modules)
+- Training runner (`train_isro_eo_enhanced.py`, `day4_train.py`)
+- Evaluation (`day4_evaluate.py`, `day5_evaluate_comprehensive.py`)
+- Inference API server (`api_server.py`)
+- Streamlit demo (`streamlit_app.py`)
+
+### 2.2 Geo web app stack (`geo-research-assistant/`)
+- **Frontend (Vite + React + TS + Zustand + MapLibre)**
+  - 3D map selection + image capture
+  - research chat, multimodal upload, manual training controls
+  - auth UI + dashboard UI
+- **Backend (Express + TS)**
+  - area analysis endpoint
+  - follow-up chat endpoint
+  - multimodal endpoint
+  - RL feedback logging
+  - manual train job launch/status
+  - auth login/me
+  - dashboard metrics aggregation
+
+### 2.3 Runtime dependency flow
+1. Frontend sends area/image/video/text to Node backend.
+2. Node backend calls local model API (`LOCAL_MODEL_API_BASE`, default `http://127.0.0.1:8000`) via `/analyze` and `/chat`.
+3. Python `api_server.py` loads checkpoint and runs model inference.
+4. Node backend formats and filters output, returns structured results to frontend.
+
+---
+
+## 3) File-by-File Functional Map (Core Source)
+
+## 3.1 Root Python backend/training files
+
+### `api_server.py`
+- FastAPI/Starlette model service.
+- Loads trained checkpoint at startup.
+- Exposes local endpoints consumed by Node backend (chat/vision analysis).
+- If checkpoint is invalid/corrupt, startup fails (seen in your prior `PytorchStreamReader` error).
+
+### `train_isro_eo_enhanced.py`
+Main training entrypoint.
+Key responsibilities:
+- Builds instruction-style EO dataset (`ISROEODataset`)
+- Class inference for coverage/balancing (`mountain/building/river/sea/...`)
+- Dataset coverage validation before training
+- Optional strict blocking when required classes are missing
+- Weighted sampling for class balancing (`--class-balance`)
+- LoRA-enabled VLM training loop
+- Checkpoint save (`checkpoints/isro_eo_enhanced_best.pt`)
+- Metrics save (`checkpoints/isro_eo_enhanced_metrics.json`)
+- Visual metrics export (`metrics/training_loss_curve.png`, `metrics/training_history.csv/json`)
+
+### `day4_multimodal_model.py`
+- Multimodal model assembly used by training script.
+- Integrates tokenizer/text path and image path.
+- Supplies forward pass for loss computation.
+
+### `day4_train.py`
+- Earlier training script (baseline pipeline).
+- Kept for experimentation/legacy stage execution.
+
+### `day4_evaluate.py`
+- Evaluation utility for model performance checks.
+
+### `day5_evaluate_comprehensive.py`
+- More complete evaluation harness for multiple metrics/tasks.
+
+### `baseline_test.py`, `baseline_small.py`
+- Baseline experiments and sanity testing.
+
+### `day2_download_multispectral.py`, `day2_create_composites.py`, `day2_test_composites.py`
+- Day-2 data preparation stage scripts.
+
+### `day3_create_dataset.py`, `day3_patch_embedding.py`, `day3_spectral_attention.py`, `day3_spectral_vit.py`
+- Day-3 architecture and dataset preparation modules.
+
+### `download_satellite_data.py`, `expand_training_dataset.py`
+- Additional ingestion/expansion scripts for dataset preparation.
+
+### `streamlit_app.py`
+- Optional UI demo for Python-only app path.
+
+### `run_project.py`
+- Utility launcher/check script for project components.
+
+### `verify_setup.py`
+- Environment/setup verification helper.
+
+### `backend_graphql.py`
+- Alternative backend experiment (GraphQL path), not the main deployed web path.
+
+### `frontend_App.js`, `frontend_App.css`, `frontend_package.json`
+- Legacy/non-TS frontend prototype files.
+
+### `setup_environment.sh`, `start_backend_and_chat.bat`, `start_streamlit.bat`
+- Environment and launch helpers for local runs.
+
+### `README.md`, `QUICK_START.md`, `EXPLANATION.md`, `error_undertaken.md`
+- Project docs, setup guidance, and issue log.
+
+---
+
+## 3.2 Data and artifacts
+
+### `data/training/training_data.json`
+- Main training annotations used by enhanced trainer.
+
+### `data/training/training_data_expanded.json`
+- Expanded annotation set variant.
+
+### `data/raw/eurosat/*`
+- Raw image dataset assets.
+
+### `data/raw/sentinel2_multispectral/*`
+- Multispectral band `.npy` files plus `metadata.json`.
+
+### `checkpoints/*`
+- Model checkpoints and training metric summaries.
+
+### `metrics/*`
+- Visual and tabular training metrics generated by trainer.
+
+### `results/day5_evaluation.json`
+- Evaluation output summary.
+
+### `results/baseline/baseline_results.json`
+- Baseline comparison metrics.
+
+---
+
+## 3.3 Geo web app (`geo-research-assistant`)
+
+## Backend (`geo-research-assistant/backend/src`)
+
+### `server.ts`
+- Express app bootstrap.
+- JSON body limits, CORS, rate limiting.
+- Mounts `/api/auth` and `/api/research`.
+
+### `types.ts`
+- Shared backend interfaces:
+  - `AreaPayload`, `GeoAnalysis`, `MultimodalResearchPayload`, `FeedbackPayload`, `ManualTrainPayload`.
+
+### `validation/geoValidation.ts`
+- Zod schemas for:
+  - area payloads
+  - chat requests
+  - feedback
+  - manual training
+  - multimodal requests
+
+### `utils/cache.ts`
+- TTL cache used for area analysis memoization.
+
+### `routes/auth.ts`
+- Simple auth endpoints:
+  - `POST /api/auth/login`
+  - `GET /api/auth/me`
+
+### `routes/research.ts`
+Main orchestration API.
+Endpoints:
+- `POST /api/research/area`
+- `POST /api/research/chat`
+- `POST /api/research/multimodal`
+- `POST /api/research/feedback`
+- `POST /api/research/manual-train`
+- `GET /api/research/manual-train/:jobId`
+- `GET /api/research/dashboard-metrics`
+
+Also manages:
+- per-session chat history
+- cached area responses
+- manual training subprocess jobs
+- runtime artifact logging
+
+### `services/openaiService.ts`
+Core response intelligence layer.
+Responsibilities:
+- Provider selection (`local` vs `openai`)
+- Local vision analyze call (`/analyze`)
+- Local chat call (`/chat`) with token limits and retries
+- Structured area analysis synthesis
+- Multimodal synthesis logic
+- Follow-up processing with:
+  - intent routing
+  - flood/drought weather deterministic handlers
+  - prompt-leak cleanup filters
+  - low-quality detection and fallback
+
+---
+
+## Frontend (`geo-research-assistant/frontend/src`)
+
+### `main.tsx`
+- React entrypoint.
+
+### `App.tsx`
+- App shell with auth gate.
+- Workspace/Dashboard tabs.
+- Login/logout and metric fetch wiring.
+- Workspace contains Map + Chat.
+
+### `types.ts`
+- Frontend type models:
+  - area payloads
+  - analysis payload
+  - auth user
+  - dashboard metrics
+  - feedback/manual train payloads
+
+### `styles.css`
+- App-level styling.
+
+### `store/useGeoStore.ts`
+- Zustand store for selected area, messages, analysis, session id, and cache.
+
+### `lib/api.ts`
+- API client methods for backend routes.
+
+### `components/Map3D.tsx`
+- MapLibre 3D map.
+- Shift+drag box selection.
+- Polygon generation.
+- Canvas crop capture -> `imageDataUrl`.
+- Emits selected geometry + capture metadata to store.
+
+### `components/ChatPanel.tsx`
+- Research chat UI.
+- Area-triggered auto-analysis.
+- Follow-up messaging.
+- Multimodal upload controls.
+- RL feedback submission.
+- Manual training trigger/polling.
+
+---
+
+## 4) How Components Link Together
+
+### 4.1 Area analysis flow
+1. User draws polygon in `Map3D.tsx`.
+2. Map captures image snippet (`imageDataUrl`) and sends payload to store.
+3. `ChatPanel.tsx` detects new area and calls `POST /api/research/area`.
+4. `research.ts` validates payload and calls `analyzeAreaWithLLM`.
+5. `openaiService.ts` calls local `/analyze` (if local provider + image available), builds structured response.
+6. Response returned and rendered in chat.
+
+### 4.2 Follow-up flow
+1. User asks follow-up in `ChatPanel.tsx`.
+2. `POST /api/research/chat` with session + area.
+3. `openaiService.ts` chooses handler:
+   - deterministic for specific risk/weather intents
+   - model generation for general/research/report intents
+4. Output is cleaned/filtered and returned.
+
+### 4.3 Multimodal flow
+1. User uploads image/video/text in chat panel.
+2. Client extracts video frames as data URLs.
+3. `POST /api/research/multimodal`.
+4. Backend analyzes each media input (local vision), synthesizes final report.
+
+### 4.4 RL/manual training flow
+1. Researcher submits feedback in UI -> `/feedback` -> JSONL log.
+2. Researcher starts training -> `/manual-train`.
+3. Backend spawns Python training process, writes runtime logs.
+4. Status polled via `/manual-train/:jobId`.
+
+### 4.5 Dashboard flow
+1. Login via `/api/auth/login`.
+2. Dashboard tab requests `/api/research/dashboard-metrics`.
+3. Backend aggregates checkpoint metrics + evaluation files + RL feedback counts.
+
+---
+
+## 5) Configuration and Environment Files
+
+### Root `.env`
+- Python-side environment variables (model/checkpoint/service behavior).
+
+### `geo-research-assistant/backend/.env`
+- Node backend env:
+  - provider config (`AI_PROVIDER`)
+  - local model base URL (`LOCAL_MODEL_API_BASE`)
+  - auth values (`AUTH_USER`, `AUTH_PASSWORD`, `AUTH_TOKEN`)
+  - optional token caps
+
+### `geo-research-assistant/frontend/.env`
+- Frontend env:
+  - backend base URL (`VITE_API_BASE_URL`)
+
+---
+
+## 6) Known Runtime Pitfalls and Why
+
+1. `Area analysis failed: fetch failed`
+- Node backend cannot reach Python model API.
+
+2. `PytorchStreamReader failed locating file ...`
+- Corrupt/incomplete checkpoint file.
+
+3. `422 max_tokens <= 512`
+- Local Python API token validation limit exceeded.
+
+4. Prompt-leak responses (`You are EarthAware...`, `user:`, `assistant:`)
+- Model echoing prompt/instructions; filtered by backend sanitization.
+
+5. Dataset validator stop (`Missing required classes`)
+- Training gate correctly enforcing class coverage policy.
+
+---
+
+## 7) Current Coverage and Data Gap
+From latest validator output in this workspace:
+- Present: `agriculture, barren, building, forest, river`
+- Missing for strict geo-class target: `mountain, sea, wetland`
+
+Impact:
+- Model can still train/run with `--allow-missing-classes`, but class generalization to missing categories will be weak.
+
+---
+
+## 8) Recommended Execution Order
+1. Start Python model API (`api_server.py`) and confirm `/health`.
+2. Start Node backend (`npm run dev` in backend).
+3. Start frontend (`npm run dev` in frontend).
+4. For training updates:
+   - run validator (`--validate-only`)
+   - run training
+   - verify checkpoints + `metrics/` outputs
+
+---
+
+## 9) Repository Working Notes
+- This report intentionally documents core source/config/script files and folder-level data artifacts.
+- Huge raw dataset file lists (thousands of `.jpg`/`.npy`) are represented by folder patterns to keep this document maintainable.
+- Existing code behavior described here reflects the current codebase state without modifying runtime logic.
+

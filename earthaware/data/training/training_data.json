@@ -1,0 +1,2552 @@
+[
+  {
+    "sample_id": 0,
+    "land_cover": "forest",
+    "spectral_indices": {
+      "NDVI": 0.8516997663339714,
+      "NDWI": -0.8253845186267172,
+      "NDBI": -0.290853402392287
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0000_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0000_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0000_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0000_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0000_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0000_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0000_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0000_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0000_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0000_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0000_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0000_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0000_B12.npy"
+    },
+    "captions": [
+      "Dense forest area with high vegetation index (NDVI: 0.85), showing strong near-infrared reflectance characteristic of healthy vegetation",
+      "Forested region displaying typical spectral signature with high NIR and low red band reflectance, indicating active photosynthesis",
+      "Natural forest with NDVI of 0.85 and negative NDWI (-0.83), confirming terrestrial vegetation rather than water"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Forest"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.85"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Yes, there is dense vegetation with high near-infrared reflectance"
+      },
+      {
+        "question": "What spectral bands indicate vegetation?",
+        "answer": "High NIR (Band 8) and low Red (Band 4) reflectance indicate healthy vegetation"
+      },
+      {
+        "question": "Is the vegetation healthy?",
+        "answer": "Yes, the NDVI of 0.85 indicates healthy, photosynthetically active vegetation"
+      }
+    ]
+  },
+  {
+    "sample_id": 1,
+    "land_cover": "forest",
+    "spectral_indices": {
+      "NDVI": 0.8499887536597573,
+      "NDWI": -0.8256507454678295,
+      "NDBI": -0.28710446445989335
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0001_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0001_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0001_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0001_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0001_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0001_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0001_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0001_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0001_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0001_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0001_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0001_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0001_B12.npy"
+    },
+    "captions": [
+      "Dense forest area with high vegetation index (NDVI: 0.85), showing strong near-infrared reflectance characteristic of healthy vegetation",
+      "Forested region displaying typical spectral signature with high NIR and low red band reflectance, indicating active photosynthesis",
+      "Natural forest with NDVI of 0.85 and negative NDWI (-0.83), confirming terrestrial vegetation rather than water"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Forest"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.85"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Yes, there is dense vegetation with high near-infrared reflectance"
+      },
+      {
+        "question": "What spectral bands indicate vegetation?",
+        "answer": "High NIR (Band 8) and low Red (Band 4) reflectance indicate healthy vegetation"
+      },
+      {
+        "question": "Is the vegetation healthy?",
+        "answer": "Yes, the NDVI of 0.85 indicates healthy, photosynthetically active vegetation"
+      }
+    ]
+  },
+  {
+    "sample_id": 2,
+    "land_cover": "forest",
+    "spectral_indices": {
+      "NDVI": 0.8514837961602784,
+      "NDWI": -0.8245743207807719,
+      "NDBI": -0.29095831899341484
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0002_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0002_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0002_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0002_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0002_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0002_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0002_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0002_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0002_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0002_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0002_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0002_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0002_B12.npy"
+    },
+    "captions": [
+      "Dense forest area with high vegetation index (NDVI: 0.85), showing strong near-infrared reflectance characteristic of healthy vegetation",
+      "Forested region displaying typical spectral signature with high NIR and low red band reflectance, indicating active photosynthesis",
+      "Natural forest with NDVI of 0.85 and negative NDWI (-0.82), confirming terrestrial vegetation rather than water"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Forest"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.85"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Yes, there is dense vegetation with high near-infrared reflectance"
+      },
+      {
+        "question": "What spectral bands indicate vegetation?",
+        "answer": "High NIR (Band 8) and low Red (Band 4) reflectance indicate healthy vegetation"
+      },
+      {
+        "question": "Is the vegetation healthy?",
+        "answer": "Yes, the NDVI of 0.85 indicates healthy, photosynthetically active vegetation"
+      }
+    ]
+  },
+  {
+    "sample_id": 3,
+    "land_cover": "forest",
+    "spectral_indices": {
+      "NDVI": 0.8561935541989854,
+      "NDWI": -0.8270157976229788,
+      "NDBI": -0.2894889706426559
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0003_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0003_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0003_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0003_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0003_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0003_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0003_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0003_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0003_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0003_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0003_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0003_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0003_B12.npy"
+    },
+    "captions": [
+      "Dense forest area with high vegetation index (NDVI: 0.86), showing strong near-infrared reflectance characteristic of healthy vegetation",
+      "Forested region displaying typical spectral signature with high NIR and low red band reflectance, indicating active photosynthesis",
+      "Natural forest with NDVI of 0.86 and negative NDWI (-0.83), confirming terrestrial vegetation rather than water"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Forest"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.86"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Yes, there is dense vegetation with high near-infrared reflectance"
+      },
+      {
+        "question": "What spectral bands indicate vegetation?",
+        "answer": "High NIR (Band 8) and low Red (Band 4) reflectance indicate healthy vegetation"
+      },
+      {
+        "question": "Is the vegetation healthy?",
+        "answer": "Yes, the NDVI of 0.86 indicates healthy, photosynthetically active vegetation"
+      }
+    ]
+  },
+  {
+    "sample_id": 4,
+    "land_cover": "forest",
+    "spectral_indices": {
+      "NDVI": 0.8487905925960736,
+      "NDWI": -0.8260741580861221,
+      "NDBI": -0.28759908116762056
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0004_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0004_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0004_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0004_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0004_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0004_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0004_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0004_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0004_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0004_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0004_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0004_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0004_B12.npy"
+    },
+    "captions": [
+      "Dense forest area with high vegetation index (NDVI: 0.85), showing strong near-infrared reflectance characteristic of healthy vegetation",
+      "Forested region displaying typical spectral signature with high NIR and low red band reflectance, indicating active photosynthesis",
+      "Natural forest with NDVI of 0.85 and negative NDWI (-0.83), confirming terrestrial vegetation rather than water"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Forest"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.85"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Yes, there is dense vegetation with high near-infrared reflectance"
+      },
+      {
+        "question": "What spectral bands indicate vegetation?",
+        "answer": "High NIR (Band 8) and low Red (Band 4) reflectance indicate healthy vegetation"
+      },
+      {
+        "question": "Is the vegetation healthy?",
+        "answer": "Yes, the NDVI of 0.85 indicates healthy, photosynthetically active vegetation"
+      }
+    ]
+  },
+  {
+    "sample_id": 5,
+    "land_cover": "forest",
+    "spectral_indices": {
+      "NDVI": 0.8502036891763849,
+      "NDWI": -0.827448702719949,
+      "NDBI": -0.2883769494945838
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0005_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0005_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0005_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0005_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0005_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0005_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0005_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0005_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0005_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0005_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0005_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0005_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0005_B12.npy"
+    },
+    "captions": [
+      "Dense forest area with high vegetation index (NDVI: 0.85), showing strong near-infrared reflectance characteristic of healthy vegetation",
+      "Forested region displaying typical spectral signature with high NIR and low red band reflectance, indicating active photosynthesis",
+      "Natural forest with NDVI of 0.85 and negative NDWI (-0.83), confirming terrestrial vegetation rather than water"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Forest"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.85"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Yes, there is dense vegetation with high near-infrared reflectance"
+      },
+      {
+        "question": "What spectral bands indicate vegetation?",
+        "answer": "High NIR (Band 8) and low Red (Band 4) reflectance indicate healthy vegetation"
+      },
+      {
+        "question": "Is the vegetation healthy?",
+        "answer": "Yes, the NDVI of 0.85 indicates healthy, photosynthetically active vegetation"
+      }
+    ]
+  },
+  {
+    "sample_id": 6,
+    "land_cover": "forest",
+    "spectral_indices": {
+      "NDVI": 0.8504022631323094,
+      "NDWI": -0.825573905885516,
+      "NDBI": -0.2865161244518597
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0006_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0006_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0006_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0006_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0006_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0006_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0006_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0006_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0006_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0006_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0006_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0006_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0006_B12.npy"
+    },
+    "captions": [
+      "Dense forest area with high vegetation index (NDVI: 0.85), showing strong near-infrared reflectance characteristic of healthy vegetation",
+      "Forested region displaying typical spectral signature with high NIR and low red band reflectance, indicating active photosynthesis",
+      "Natural forest with NDVI of 0.85 and negative NDWI (-0.83), confirming terrestrial vegetation rather than water"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Forest"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.85"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Yes, there is dense vegetation with high near-infrared reflectance"
+      },
+      {
+        "question": "What spectral bands indicate vegetation?",
+        "answer": "High NIR (Band 8) and low Red (Band 4) reflectance indicate healthy vegetation"
+      },
+      {
+        "question": "Is the vegetation healthy?",
+        "answer": "Yes, the NDVI of 0.85 indicates healthy, photosynthetically active vegetation"
+      }
+    ]
+  },
+  {
+    "sample_id": 7,
+    "land_cover": "forest",
+    "spectral_indices": {
+      "NDVI": 0.8519524702614953,
+      "NDWI": -0.826693003191905,
+      "NDBI": -0.2877675443514973
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0007_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0007_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0007_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0007_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0007_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0007_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0007_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0007_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0007_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0007_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0007_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0007_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0007_B12.npy"
+    },
+    "captions": [
+      "Dense forest area with high vegetation index (NDVI: 0.85), showing strong near-infrared reflectance characteristic of healthy vegetation",
+      "Forested region displaying typical spectral signature with high NIR and low red band reflectance, indicating active photosynthesis",
+      "Natural forest with NDVI of 0.85 and negative NDWI (-0.83), confirming terrestrial vegetation rather than water"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Forest"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.85"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Yes, there is dense vegetation with high near-infrared reflectance"
+      },
+      {
+        "question": "What spectral bands indicate vegetation?",
+        "answer": "High NIR (Band 8) and low Red (Band 4) reflectance indicate healthy vegetation"
+      },
+      {
+        "question": "Is the vegetation healthy?",
+        "answer": "Yes, the NDVI of 0.85 indicates healthy, photosynthetically active vegetation"
+      }
+    ]
+  },
+  {
+    "sample_id": 8,
+    "land_cover": "forest",
+    "spectral_indices": {
+      "NDVI": 0.8514547272420321,
+      "NDWI": -0.8216271081305266,
+      "NDBI": -0.2889765945721079
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0008_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0008_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0008_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0008_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0008_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0008_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0008_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0008_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0008_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0008_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0008_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0008_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0008_B12.npy"
+    },
+    "captions": [
+      "Dense forest area with high vegetation index (NDVI: 0.85), showing strong near-infrared reflectance characteristic of healthy vegetation",
+      "Forested region displaying typical spectral signature with high NIR and low red band reflectance, indicating active photosynthesis",
+      "Natural forest with NDVI of 0.85 and negative NDWI (-0.82), confirming terrestrial vegetation rather than water"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Forest"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.85"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Yes, there is dense vegetation with high near-infrared reflectance"
+      },
+      {
+        "question": "What spectral bands indicate vegetation?",
+        "answer": "High NIR (Band 8) and low Red (Band 4) reflectance indicate healthy vegetation"
+      },
+      {
+        "question": "Is the vegetation healthy?",
+        "answer": "Yes, the NDVI of 0.85 indicates healthy, photosynthetically active vegetation"
+      }
+    ]
+  },
+  {
+    "sample_id": 9,
+    "land_cover": "forest",
+    "spectral_indices": {
+      "NDVI": 0.8495624323196422,
+      "NDWI": -0.8241670723514831,
+      "NDBI": -0.2939463062486414
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0009_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0009_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0009_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0009_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0009_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0009_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0009_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0009_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0009_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0009_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0009_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0009_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0009_B12.npy"
+    },
+    "captions": [
+      "Dense forest area with high vegetation index (NDVI: 0.85), showing strong near-infrared reflectance characteristic of healthy vegetation",
+      "Forested region displaying typical spectral signature with high NIR and low red band reflectance, indicating active photosynthesis",
+      "Natural forest with NDVI of 0.85 and negative NDWI (-0.82), confirming terrestrial vegetation rather than water"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Forest"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.85"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Yes, there is dense vegetation with high near-infrared reflectance"
+      },
+      {
+        "question": "What spectral bands indicate vegetation?",
+        "answer": "High NIR (Band 8) and low Red (Band 4) reflectance indicate healthy vegetation"
+      },
+      {
+        "question": "Is the vegetation healthy?",
+        "answer": "Yes, the NDVI of 0.85 indicates healthy, photosynthetically active vegetation"
+      }
+    ]
+  },
+  {
+    "sample_id": 10,
+    "land_cover": "water",
+    "spectral_indices": {
+      "NDVI": -0.537867395585998,
+      "NDWI": 0.6867716571702839,
+      "NDBI": -0.10055838281705212
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0010_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0010_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0010_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0010_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0010_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0010_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0010_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0010_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0010_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0010_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0010_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0010_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0010_B12.npy"
+    },
+    "captions": [
+      "Water body with very low near-infrared reflectance and positive NDWI (0.69), characteristic of open water surfaces",
+      "Aquatic area showing strong SWIR absorption and NDWI of 0.69, typical of lakes or rivers",
+      "Water surface with minimal vegetation (NDVI: -0.54) and high water index, indicating clear water body"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Water"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately -0.54"
+      },
+      {
+        "question": "Are there water bodies visible?",
+        "answer": "Yes, the area shows water with characteristic low NIR and high NDWI"
+      },
+      {
+        "question": "What is the NDWI value?",
+        "answer": "The NDWI is 0.69, confirming water presence"
+      },
+      {
+        "question": "What spectral signature indicates water?",
+        "answer": "Very low NIR and SWIR reflectance are diagnostic for water bodies"
+      }
+    ]
+  },
+  {
+    "sample_id": 11,
+    "land_cover": "water",
+    "spectral_indices": {
+      "NDVI": -0.5359232640702446,
+      "NDWI": 0.6889726926678029,
+      "NDBI": -0.0880619884950053
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0011_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0011_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0011_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0011_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0011_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0011_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0011_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0011_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0011_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0011_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0011_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0011_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0011_B12.npy"
+    },
+    "captions": [
+      "Water body with very low near-infrared reflectance and positive NDWI (0.69), characteristic of open water surfaces",
+      "Aquatic area showing strong SWIR absorption and NDWI of 0.69, typical of lakes or rivers",
+      "Water surface with minimal vegetation (NDVI: -0.54) and high water index, indicating clear water body"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Water"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately -0.54"
+      },
+      {
+        "question": "Are there water bodies visible?",
+        "answer": "Yes, the area shows water with characteristic low NIR and high NDWI"
+      },
+      {
+        "question": "What is the NDWI value?",
+        "answer": "The NDWI is 0.69, confirming water presence"
+      },
+      {
+        "question": "What spectral signature indicates water?",
+        "answer": "Very low NIR and SWIR reflectance are diagnostic for water bodies"
+      }
+    ]
+  },
+  {
+    "sample_id": 12,
+    "land_cover": "water",
+    "spectral_indices": {
+      "NDVI": -0.5436813521016417,
+      "NDWI": 0.6873174485449475,
+      "NDBI": -0.09933894199383947
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0012_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0012_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0012_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0012_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0012_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0012_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0012_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0012_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0012_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0012_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0012_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0012_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0012_B12.npy"
+    },
+    "captions": [
+      "Water body with very low near-infrared reflectance and positive NDWI (0.69), characteristic of open water surfaces",
+      "Aquatic area showing strong SWIR absorption and NDWI of 0.69, typical of lakes or rivers",
+      "Water surface with minimal vegetation (NDVI: -0.54) and high water index, indicating clear water body"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Water"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately -0.54"
+      },
+      {
+        "question": "Are there water bodies visible?",
+        "answer": "Yes, the area shows water with characteristic low NIR and high NDWI"
+      },
+      {
+        "question": "What is the NDWI value?",
+        "answer": "The NDWI is 0.69, confirming water presence"
+      },
+      {
+        "question": "What spectral signature indicates water?",
+        "answer": "Very low NIR and SWIR reflectance are diagnostic for water bodies"
+      }
+    ]
+  },
+  {
+    "sample_id": 13,
+    "land_cover": "water",
+    "spectral_indices": {
+      "NDVI": -0.5340110032790577,
+      "NDWI": 0.6839586596151184,
+      "NDBI": -0.08298481272284419
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0013_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0013_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0013_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0013_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0013_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0013_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0013_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0013_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0013_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0013_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0013_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0013_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0013_B12.npy"
+    },
+    "captions": [
+      "Water body with very low near-infrared reflectance and positive NDWI (0.68), characteristic of open water surfaces",
+      "Aquatic area showing strong SWIR absorption and NDWI of 0.68, typical of lakes or rivers",
+      "Water surface with minimal vegetation (NDVI: -0.53) and high water index, indicating clear water body"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Water"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately -0.53"
+      },
+      {
+        "question": "Are there water bodies visible?",
+        "answer": "Yes, the area shows water with characteristic low NIR and high NDWI"
+      },
+      {
+        "question": "What is the NDWI value?",
+        "answer": "The NDWI is 0.68, confirming water presence"
+      },
+      {
+        "question": "What spectral signature indicates water?",
+        "answer": "Very low NIR and SWIR reflectance are diagnostic for water bodies"
+      }
+    ]
+  },
+  {
+    "sample_id": 14,
+    "land_cover": "water",
+    "spectral_indices": {
+      "NDVI": -0.5280497916209791,
+      "NDWI": 0.6782005492886795,
+      "NDBI": -0.07777334951852284
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0014_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0014_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0014_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0014_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0014_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0014_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0014_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0014_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0014_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0014_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0014_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0014_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0014_B12.npy"
+    },
+    "captions": [
+      "Water body with very low near-infrared reflectance and positive NDWI (0.68), characteristic of open water surfaces",
+      "Aquatic area showing strong SWIR absorption and NDWI of 0.68, typical of lakes or rivers",
+      "Water surface with minimal vegetation (NDVI: -0.53) and high water index, indicating clear water body"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Water"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately -0.53"
+      },
+      {
+        "question": "Are there water bodies visible?",
+        "answer": "Yes, the area shows water with characteristic low NIR and high NDWI"
+      },
+      {
+        "question": "What is the NDWI value?",
+        "answer": "The NDWI is 0.68, confirming water presence"
+      },
+      {
+        "question": "What spectral signature indicates water?",
+        "answer": "Very low NIR and SWIR reflectance are diagnostic for water bodies"
+      }
+    ]
+  },
+  {
+    "sample_id": 15,
+    "land_cover": "water",
+    "spectral_indices": {
+      "NDVI": -0.5436624509330639,
+      "NDWI": 0.6854925263802507,
+      "NDBI": -0.0759189403950694
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0015_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0015_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0015_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0015_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0015_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0015_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0015_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0015_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0015_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0015_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0015_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0015_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0015_B12.npy"
+    },
+    "captions": [
+      "Water body with very low near-infrared reflectance and positive NDWI (0.69), characteristic of open water surfaces",
+      "Aquatic area showing strong SWIR absorption and NDWI of 0.69, typical of lakes or rivers",
+      "Water surface with minimal vegetation (NDVI: -0.54) and high water index, indicating clear water body"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Water"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately -0.54"
+      },
+      {
+        "question": "Are there water bodies visible?",
+        "answer": "Yes, the area shows water with characteristic low NIR and high NDWI"
+      },
+      {
+        "question": "What is the NDWI value?",
+        "answer": "The NDWI is 0.69, confirming water presence"
+      },
+      {
+        "question": "What spectral signature indicates water?",
+        "answer": "Very low NIR and SWIR reflectance are diagnostic for water bodies"
+      }
+    ]
+  },
+  {
+    "sample_id": 16,
+    "land_cover": "water",
+    "spectral_indices": {
+      "NDVI": -0.53467162279226,
+      "NDWI": 0.6794386888973611,
+      "NDBI": -0.1065785645699355
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0016_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0016_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0016_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0016_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0016_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0016_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0016_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0016_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0016_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0016_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0016_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0016_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0016_B12.npy"
+    },
+    "captions": [
+      "Water body with very low near-infrared reflectance and positive NDWI (0.68), characteristic of open water surfaces",
+      "Aquatic area showing strong SWIR absorption and NDWI of 0.68, typical of lakes or rivers",
+      "Water surface with minimal vegetation (NDVI: -0.53) and high water index, indicating clear water body"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Water"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately -0.53"
+      },
+      {
+        "question": "Are there water bodies visible?",
+        "answer": "Yes, the area shows water with characteristic low NIR and high NDWI"
+      },
+      {
+        "question": "What is the NDWI value?",
+        "answer": "The NDWI is 0.68, confirming water presence"
+      },
+      {
+        "question": "What spectral signature indicates water?",
+        "answer": "Very low NIR and SWIR reflectance are diagnostic for water bodies"
+      }
+    ]
+  },
+  {
+    "sample_id": 17,
+    "land_cover": "water",
+    "spectral_indices": {
+      "NDVI": -0.5366964716170091,
+      "NDWI": 0.6771136003506679,
+      "NDBI": -0.0911529773898076
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0017_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0017_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0017_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0017_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0017_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0017_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0017_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0017_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0017_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0017_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0017_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0017_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0017_B12.npy"
+    },
+    "captions": [
+      "Water body with very low near-infrared reflectance and positive NDWI (0.68), characteristic of open water surfaces",
+      "Aquatic area showing strong SWIR absorption and NDWI of 0.68, typical of lakes or rivers",
+      "Water surface with minimal vegetation (NDVI: -0.54) and high water index, indicating clear water body"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Water"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately -0.54"
+      },
+      {
+        "question": "Are there water bodies visible?",
+        "answer": "Yes, the area shows water with characteristic low NIR and high NDWI"
+      },
+      {
+        "question": "What is the NDWI value?",
+        "answer": "The NDWI is 0.68, confirming water presence"
+      },
+      {
+        "question": "What spectral signature indicates water?",
+        "answer": "Very low NIR and SWIR reflectance are diagnostic for water bodies"
+      }
+    ]
+  },
+  {
+    "sample_id": 18,
+    "land_cover": "water",
+    "spectral_indices": {
+      "NDVI": -0.5376687549538048,
+      "NDWI": 0.6862160096063366,
+      "NDBI": -0.07569936846426778
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0018_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0018_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0018_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0018_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0018_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0018_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0018_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0018_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0018_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0018_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0018_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0018_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0018_B12.npy"
+    },
+    "captions": [
+      "Water body with very low near-infrared reflectance and positive NDWI (0.69), characteristic of open water surfaces",
+      "Aquatic area showing strong SWIR absorption and NDWI of 0.69, typical of lakes or rivers",
+      "Water surface with minimal vegetation (NDVI: -0.54) and high water index, indicating clear water body"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Water"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately -0.54"
+      },
+      {
+        "question": "Are there water bodies visible?",
+        "answer": "Yes, the area shows water with characteristic low NIR and high NDWI"
+      },
+      {
+        "question": "What is the NDWI value?",
+        "answer": "The NDWI is 0.69, confirming water presence"
+      },
+      {
+        "question": "What spectral signature indicates water?",
+        "answer": "Very low NIR and SWIR reflectance are diagnostic for water bodies"
+      }
+    ]
+  },
+  {
+    "sample_id": 19,
+    "land_cover": "water",
+    "spectral_indices": {
+      "NDVI": -0.5416991503707289,
+      "NDWI": 0.688891007681802,
+      "NDBI": -0.08314614526173436
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0019_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0019_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0019_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0019_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0019_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0019_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0019_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0019_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0019_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0019_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0019_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0019_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0019_B12.npy"
+    },
+    "captions": [
+      "Water body with very low near-infrared reflectance and positive NDWI (0.69), characteristic of open water surfaces",
+      "Aquatic area showing strong SWIR absorption and NDWI of 0.69, typical of lakes or rivers",
+      "Water surface with minimal vegetation (NDVI: -0.54) and high water index, indicating clear water body"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Water"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately -0.54"
+      },
+      {
+        "question": "Are there water bodies visible?",
+        "answer": "Yes, the area shows water with characteristic low NIR and high NDWI"
+      },
+      {
+        "question": "What is the NDWI value?",
+        "answer": "The NDWI is 0.69, confirming water presence"
+      },
+      {
+        "question": "What spectral signature indicates water?",
+        "answer": "Very low NIR and SWIR reflectance are diagnostic for water bodies"
+      }
+    ]
+  },
+  {
+    "sample_id": 20,
+    "land_cover": "urban",
+    "spectral_indices": {
+      "NDVI": 0.22462389408463887,
+      "NDWI": -0.3074382681655821,
+      "NDBI": 0.07002887141353697
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0020_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0020_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0020_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0020_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0020_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0020_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0020_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0020_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0020_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0020_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0020_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0020_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0020_B12.npy"
+    },
+    "captions": [
+      "Urban or built-up area with positive NDBI (0.07) and moderate SWIR reflectance, typical of concrete and asphalt surfaces",
+      "Developed area showing minimal vegetation (NDVI: 0.22) and spectral characteristics of built infrastructure",
+      "Urban landscape with high SWIR values and low vegetation index, indicating predominant artificial surfaces"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Urban"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.22"
+      },
+      {
+        "question": "Is this area urban or rural?",
+        "answer": "Urban, with built-up surfaces showing high SWIR and positive NDBI"
+      },
+      {
+        "question": "What is the NDBI value?",
+        "answer": "The NDBI is 0.07, indicating built-up area"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Minimal vegetation, with NDVI of only 0.22"
+      }
+    ]
+  },
+  {
+    "sample_id": 21,
+    "land_cover": "urban",
+    "spectral_indices": {
+      "NDVI": 0.2211742675084291,
+      "NDWI": -0.31049886349220834,
+      "NDBI": 0.06985295983702121
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0021_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0021_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0021_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0021_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0021_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0021_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0021_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0021_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0021_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0021_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0021_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0021_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0021_B12.npy"
+    },
+    "captions": [
+      "Urban or built-up area with positive NDBI (0.07) and moderate SWIR reflectance, typical of concrete and asphalt surfaces",
+      "Developed area showing minimal vegetation (NDVI: 0.22) and spectral characteristics of built infrastructure",
+      "Urban landscape with high SWIR values and low vegetation index, indicating predominant artificial surfaces"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Urban"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.22"
+      },
+      {
+        "question": "Is this area urban or rural?",
+        "answer": "Urban, with built-up surfaces showing high SWIR and positive NDBI"
+      },
+      {
+        "question": "What is the NDBI value?",
+        "answer": "The NDBI is 0.07, indicating built-up area"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Minimal vegetation, with NDVI of only 0.22"
+      }
+    ]
+  },
+  {
+    "sample_id": 22,
+    "land_cover": "urban",
+    "spectral_indices": {
+      "NDVI": 0.2223448649148445,
+      "NDWI": -0.3080573263979395,
+      "NDBI": 0.06922012495793353
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0022_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0022_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0022_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0022_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0022_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0022_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0022_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0022_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0022_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0022_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0022_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0022_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0022_B12.npy"
+    },
+    "captions": [
+      "Urban or built-up area with positive NDBI (0.07) and moderate SWIR reflectance, typical of concrete and asphalt surfaces",
+      "Developed area showing minimal vegetation (NDVI: 0.22) and spectral characteristics of built infrastructure",
+      "Urban landscape with high SWIR values and low vegetation index, indicating predominant artificial surfaces"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Urban"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.22"
+      },
+      {
+        "question": "Is this area urban or rural?",
+        "answer": "Urban, with built-up surfaces showing high SWIR and positive NDBI"
+      },
+      {
+        "question": "What is the NDBI value?",
+        "answer": "The NDBI is 0.07, indicating built-up area"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Minimal vegetation, with NDVI of only 0.22"
+      }
+    ]
+  },
+  {
+    "sample_id": 23,
+    "land_cover": "urban",
+    "spectral_indices": {
+      "NDVI": 0.22469847229308174,
+      "NDWI": -0.31359613825817473,
+      "NDBI": 0.06608374413691556
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0023_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0023_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0023_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0023_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0023_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0023_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0023_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0023_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0023_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0023_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0023_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0023_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0023_B12.npy"
+    },
+    "captions": [
+      "Urban or built-up area with positive NDBI (0.07) and moderate SWIR reflectance, typical of concrete and asphalt surfaces",
+      "Developed area showing minimal vegetation (NDVI: 0.22) and spectral characteristics of built infrastructure",
+      "Urban landscape with high SWIR values and low vegetation index, indicating predominant artificial surfaces"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Urban"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.22"
+      },
+      {
+        "question": "Is this area urban or rural?",
+        "answer": "Urban, with built-up surfaces showing high SWIR and positive NDBI"
+      },
+      {
+        "question": "What is the NDBI value?",
+        "answer": "The NDBI is 0.07, indicating built-up area"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Minimal vegetation, with NDVI of only 0.22"
+      }
+    ]
+  },
+  {
+    "sample_id": 24,
+    "land_cover": "urban",
+    "spectral_indices": {
+      "NDVI": 0.22399546369285636,
+      "NDWI": -0.30888537993908805,
+      "NDBI": 0.06936406857413854
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0024_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0024_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0024_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0024_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0024_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0024_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0024_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0024_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0024_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0024_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0024_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0024_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0024_B12.npy"
+    },
+    "captions": [
+      "Urban or built-up area with positive NDBI (0.07) and moderate SWIR reflectance, typical of concrete and asphalt surfaces",
+      "Developed area showing minimal vegetation (NDVI: 0.22) and spectral characteristics of built infrastructure",
+      "Urban landscape with high SWIR values and low vegetation index, indicating predominant artificial surfaces"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Urban"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.22"
+      },
+      {
+        "question": "Is this area urban or rural?",
+        "answer": "Urban, with built-up surfaces showing high SWIR and positive NDBI"
+      },
+      {
+        "question": "What is the NDBI value?",
+        "answer": "The NDBI is 0.07, indicating built-up area"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Minimal vegetation, with NDVI of only 0.22"
+      }
+    ]
+  },
+  {
+    "sample_id": 25,
+    "land_cover": "urban",
+    "spectral_indices": {
+      "NDVI": 0.21951694466178756,
+      "NDWI": -0.3097430021861871,
+      "NDBI": 0.06781691799491943
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0025_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0025_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0025_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0025_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0025_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0025_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0025_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0025_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0025_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0025_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0025_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0025_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0025_B12.npy"
+    },
+    "captions": [
+      "Urban or built-up area with positive NDBI (0.07) and moderate SWIR reflectance, typical of concrete and asphalt surfaces",
+      "Developed area showing minimal vegetation (NDVI: 0.22) and spectral characteristics of built infrastructure",
+      "Urban landscape with high SWIR values and low vegetation index, indicating predominant artificial surfaces"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Urban"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.22"
+      },
+      {
+        "question": "Is this area urban or rural?",
+        "answer": "Urban, with built-up surfaces showing high SWIR and positive NDBI"
+      },
+      {
+        "question": "What is the NDBI value?",
+        "answer": "The NDBI is 0.07, indicating built-up area"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Minimal vegetation, with NDVI of only 0.22"
+      }
+    ]
+  },
+  {
+    "sample_id": 26,
+    "land_cover": "urban",
+    "spectral_indices": {
+      "NDVI": 0.22730614133881386,
+      "NDWI": -0.3086783577541428,
+      "NDBI": 0.06673483356723714
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0026_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0026_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0026_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0026_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0026_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0026_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0026_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0026_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0026_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0026_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0026_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0026_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0026_B12.npy"
+    },
+    "captions": [
+      "Urban or built-up area with positive NDBI (0.07) and moderate SWIR reflectance, typical of concrete and asphalt surfaces",
+      "Developed area showing minimal vegetation (NDVI: 0.23) and spectral characteristics of built infrastructure",
+      "Urban landscape with high SWIR values and low vegetation index, indicating predominant artificial surfaces"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Urban"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.23"
+      },
+      {
+        "question": "Is this area urban or rural?",
+        "answer": "Urban, with built-up surfaces showing high SWIR and positive NDBI"
+      },
+      {
+        "question": "What is the NDBI value?",
+        "answer": "The NDBI is 0.07, indicating built-up area"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Minimal vegetation, with NDVI of only 0.23"
+      }
+    ]
+  },
+  {
+    "sample_id": 27,
+    "land_cover": "urban",
+    "spectral_indices": {
+      "NDVI": 0.22511534422031382,
+      "NDWI": -0.31118247489372675,
+      "NDBI": 0.06914160271110745
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0027_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0027_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0027_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0027_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0027_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0027_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0027_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0027_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0027_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0027_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0027_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0027_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0027_B12.npy"
+    },
+    "captions": [
+      "Urban or built-up area with positive NDBI (0.07) and moderate SWIR reflectance, typical of concrete and asphalt surfaces",
+      "Developed area showing minimal vegetation (NDVI: 0.23) and spectral characteristics of built infrastructure",
+      "Urban landscape with high SWIR values and low vegetation index, indicating predominant artificial surfaces"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Urban"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.23"
+      },
+      {
+        "question": "Is this area urban or rural?",
+        "answer": "Urban, with built-up surfaces showing high SWIR and positive NDBI"
+      },
+      {
+        "question": "What is the NDBI value?",
+        "answer": "The NDBI is 0.07, indicating built-up area"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Minimal vegetation, with NDVI of only 0.23"
+      }
+    ]
+  },
+  {
+    "sample_id": 28,
+    "land_cover": "urban",
+    "spectral_indices": {
+      "NDVI": 0.22180105876606712,
+      "NDWI": -0.31164960658539553,
+      "NDBI": 0.06694290466246883
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0028_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0028_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0028_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0028_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0028_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0028_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0028_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0028_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0028_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0028_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0028_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0028_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0028_B12.npy"
+    },
+    "captions": [
+      "Urban or built-up area with positive NDBI (0.07) and moderate SWIR reflectance, typical of concrete and asphalt surfaces",
+      "Developed area showing minimal vegetation (NDVI: 0.22) and spectral characteristics of built infrastructure",
+      "Urban landscape with high SWIR values and low vegetation index, indicating predominant artificial surfaces"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Urban"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.22"
+      },
+      {
+        "question": "Is this area urban or rural?",
+        "answer": "Urban, with built-up surfaces showing high SWIR and positive NDBI"
+      },
+      {
+        "question": "What is the NDBI value?",
+        "answer": "The NDBI is 0.07, indicating built-up area"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Minimal vegetation, with NDVI of only 0.22"
+      }
+    ]
+  },
+  {
+    "sample_id": 29,
+    "land_cover": "urban",
+    "spectral_indices": {
+      "NDVI": 0.22815791393812324,
+      "NDWI": -0.3138330026832231,
+      "NDBI": 0.06651615313323787
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0029_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0029_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0029_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0029_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0029_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0029_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0029_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0029_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0029_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0029_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0029_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0029_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0029_B12.npy"
+    },
+    "captions": [
+      "Urban or built-up area with positive NDBI (0.07) and moderate SWIR reflectance, typical of concrete and asphalt surfaces",
+      "Developed area showing minimal vegetation (NDVI: 0.23) and spectral characteristics of built infrastructure",
+      "Urban landscape with high SWIR values and low vegetation index, indicating predominant artificial surfaces"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Urban"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.23"
+      },
+      {
+        "question": "Is this area urban or rural?",
+        "answer": "Urban, with built-up surfaces showing high SWIR and positive NDBI"
+      },
+      {
+        "question": "What is the NDBI value?",
+        "answer": "The NDBI is 0.07, indicating built-up area"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "Minimal vegetation, with NDVI of only 0.23"
+      }
+    ]
+  },
+  {
+    "sample_id": 30,
+    "land_cover": "agriculture",
+    "spectral_indices": {
+      "NDVI": 0.7758192382860855,
+      "NDWI": -0.7450897657238967,
+      "NDBI": -0.2968045958874713
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0030_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0030_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0030_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0030_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0030_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0030_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0030_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0030_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0030_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0030_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0030_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0030_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0030_B12.npy"
+    },
+    "captions": [
+      "Agricultural cropland with high NDVI (0.78) showing active vegetation and strong red-edge response typical of healthy crops",
+      "Cultivated fields displaying high near-infrared reflectance and NDVI of 0.78, indicating productive agricultural land",
+      "Farmland with vegetation index of 0.78 and spectral signature consistent with growing crops in good condition"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Agriculture"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.78"
+      },
+      {
+        "question": "What type of agriculture is visible?",
+        "answer": "Active cropland with high vegetation index indicating growing crops"
+      },
+      {
+        "question": "Are the crops healthy?",
+        "answer": "Yes, NDVI of 0.78 indicates healthy, vigorous crop growth"
+      },
+      {
+        "question": "What spectral features indicate crops?",
+        "answer": "High NIR reflectance and strong red-edge response are typical of healthy crops"
+      }
+    ]
+  },
+  {
+    "sample_id": 31,
+    "land_cover": "agriculture",
+    "spectral_indices": {
+      "NDVI": 0.771828454962915,
+      "NDWI": -0.7376947923134873,
+      "NDBI": -0.29293158080873505
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0031_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0031_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0031_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0031_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0031_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0031_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0031_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0031_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0031_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0031_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0031_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0031_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0031_B12.npy"
+    },
+    "captions": [
+      "Agricultural cropland with high NDVI (0.77) showing active vegetation and strong red-edge response typical of healthy crops",
+      "Cultivated fields displaying high near-infrared reflectance and NDVI of 0.77, indicating productive agricultural land",
+      "Farmland with vegetation index of 0.77 and spectral signature consistent with growing crops in good condition"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Agriculture"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.77"
+      },
+      {
+        "question": "What type of agriculture is visible?",
+        "answer": "Active cropland with high vegetation index indicating growing crops"
+      },
+      {
+        "question": "Are the crops healthy?",
+        "answer": "Yes, NDVI of 0.77 indicates healthy, vigorous crop growth"
+      },
+      {
+        "question": "What spectral features indicate crops?",
+        "answer": "High NIR reflectance and strong red-edge response are typical of healthy crops"
+      }
+    ]
+  },
+  {
+    "sample_id": 32,
+    "land_cover": "agriculture",
+    "spectral_indices": {
+      "NDVI": 0.7732629461535526,
+      "NDWI": -0.741161923649065,
+      "NDBI": -0.2928869954725713
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0032_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0032_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0032_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0032_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0032_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0032_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0032_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0032_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0032_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0032_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0032_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0032_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0032_B12.npy"
+    },
+    "captions": [
+      "Agricultural cropland with high NDVI (0.77) showing active vegetation and strong red-edge response typical of healthy crops",
+      "Cultivated fields displaying high near-infrared reflectance and NDVI of 0.77, indicating productive agricultural land",
+      "Farmland with vegetation index of 0.77 and spectral signature consistent with growing crops in good condition"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Agriculture"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.77"
+      },
+      {
+        "question": "What type of agriculture is visible?",
+        "answer": "Active cropland with high vegetation index indicating growing crops"
+      },
+      {
+        "question": "Are the crops healthy?",
+        "answer": "Yes, NDVI of 0.77 indicates healthy, vigorous crop growth"
+      },
+      {
+        "question": "What spectral features indicate crops?",
+        "answer": "High NIR reflectance and strong red-edge response are typical of healthy crops"
+      }
+    ]
+  },
+  {
+    "sample_id": 33,
+    "land_cover": "agriculture",
+    "spectral_indices": {
+      "NDVI": 0.7772731782450175,
+      "NDWI": -0.7414493205125217,
+      "NDBI": -0.2960946318237012
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0033_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0033_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0033_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0033_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0033_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0033_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0033_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0033_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0033_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0033_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0033_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0033_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0033_B12.npy"
+    },
+    "captions": [
+      "Agricultural cropland with high NDVI (0.78) showing active vegetation and strong red-edge response typical of healthy crops",
+      "Cultivated fields displaying high near-infrared reflectance and NDVI of 0.78, indicating productive agricultural land",
+      "Farmland with vegetation index of 0.78 and spectral signature consistent with growing crops in good condition"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Agriculture"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.78"
+      },
+      {
+        "question": "What type of agriculture is visible?",
+        "answer": "Active cropland with high vegetation index indicating growing crops"
+      },
+      {
+        "question": "Are the crops healthy?",
+        "answer": "Yes, NDVI of 0.78 indicates healthy, vigorous crop growth"
+      },
+      {
+        "question": "What spectral features indicate crops?",
+        "answer": "High NIR reflectance and strong red-edge response are typical of healthy crops"
+      }
+    ]
+  },
+  {
+    "sample_id": 34,
+    "land_cover": "agriculture",
+    "spectral_indices": {
+      "NDVI": 0.7755035851439852,
+      "NDWI": -0.741591253844887,
+      "NDBI": -0.29796071503689203
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0034_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0034_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0034_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0034_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0034_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0034_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0034_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0034_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0034_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0034_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0034_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0034_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0034_B12.npy"
+    },
+    "captions": [
+      "Agricultural cropland with high NDVI (0.78) showing active vegetation and strong red-edge response typical of healthy crops",
+      "Cultivated fields displaying high near-infrared reflectance and NDVI of 0.78, indicating productive agricultural land",
+      "Farmland with vegetation index of 0.78 and spectral signature consistent with growing crops in good condition"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Agriculture"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.78"
+      },
+      {
+        "question": "What type of agriculture is visible?",
+        "answer": "Active cropland with high vegetation index indicating growing crops"
+      },
+      {
+        "question": "Are the crops healthy?",
+        "answer": "Yes, NDVI of 0.78 indicates healthy, vigorous crop growth"
+      },
+      {
+        "question": "What spectral features indicate crops?",
+        "answer": "High NIR reflectance and strong red-edge response are typical of healthy crops"
+      }
+    ]
+  },
+  {
+    "sample_id": 35,
+    "land_cover": "agriculture",
+    "spectral_indices": {
+      "NDVI": 0.7742891099807918,
+      "NDWI": -0.7348525503945283,
+      "NDBI": -0.2925738014486373
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0035_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0035_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0035_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0035_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0035_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0035_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0035_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0035_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0035_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0035_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0035_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0035_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0035_B12.npy"
+    },
+    "captions": [
+      "Agricultural cropland with high NDVI (0.77) showing active vegetation and strong red-edge response typical of healthy crops",
+      "Cultivated fields displaying high near-infrared reflectance and NDVI of 0.77, indicating productive agricultural land",
+      "Farmland with vegetation index of 0.77 and spectral signature consistent with growing crops in good condition"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Agriculture"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.77"
+      },
+      {
+        "question": "What type of agriculture is visible?",
+        "answer": "Active cropland with high vegetation index indicating growing crops"
+      },
+      {
+        "question": "Are the crops healthy?",
+        "answer": "Yes, NDVI of 0.77 indicates healthy, vigorous crop growth"
+      },
+      {
+        "question": "What spectral features indicate crops?",
+        "answer": "High NIR reflectance and strong red-edge response are typical of healthy crops"
+      }
+    ]
+  },
+  {
+    "sample_id": 36,
+    "land_cover": "agriculture",
+    "spectral_indices": {
+      "NDVI": 0.7769411532323101,
+      "NDWI": -0.7397400068477185,
+      "NDBI": -0.29502823001117245
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0036_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0036_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0036_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0036_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0036_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0036_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0036_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0036_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0036_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0036_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0036_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0036_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0036_B12.npy"
+    },
+    "captions": [
+      "Agricultural cropland with high NDVI (0.78) showing active vegetation and strong red-edge response typical of healthy crops",
+      "Cultivated fields displaying high near-infrared reflectance and NDVI of 0.78, indicating productive agricultural land",
+      "Farmland with vegetation index of 0.78 and spectral signature consistent with growing crops in good condition"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Agriculture"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.78"
+      },
+      {
+        "question": "What type of agriculture is visible?",
+        "answer": "Active cropland with high vegetation index indicating growing crops"
+      },
+      {
+        "question": "Are the crops healthy?",
+        "answer": "Yes, NDVI of 0.78 indicates healthy, vigorous crop growth"
+      },
+      {
+        "question": "What spectral features indicate crops?",
+        "answer": "High NIR reflectance and strong red-edge response are typical of healthy crops"
+      }
+    ]
+  },
+  {
+    "sample_id": 37,
+    "land_cover": "agriculture",
+    "spectral_indices": {
+      "NDVI": 0.776399021183183,
+      "NDWI": -0.741707547770857,
+      "NDBI": -0.2953405469445197
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0037_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0037_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0037_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0037_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0037_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0037_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0037_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0037_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0037_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0037_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0037_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0037_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0037_B12.npy"
+    },
+    "captions": [
+      "Agricultural cropland with high NDVI (0.78) showing active vegetation and strong red-edge response typical of healthy crops",
+      "Cultivated fields displaying high near-infrared reflectance and NDVI of 0.78, indicating productive agricultural land",
+      "Farmland with vegetation index of 0.78 and spectral signature consistent with growing crops in good condition"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Agriculture"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.78"
+      },
+      {
+        "question": "What type of agriculture is visible?",
+        "answer": "Active cropland with high vegetation index indicating growing crops"
+      },
+      {
+        "question": "Are the crops healthy?",
+        "answer": "Yes, NDVI of 0.78 indicates healthy, vigorous crop growth"
+      },
+      {
+        "question": "What spectral features indicate crops?",
+        "answer": "High NIR reflectance and strong red-edge response are typical of healthy crops"
+      }
+    ]
+  },
+  {
+    "sample_id": 38,
+    "land_cover": "agriculture",
+    "spectral_indices": {
+      "NDVI": 0.7771454134565255,
+      "NDWI": -0.7430078528242821,
+      "NDBI": -0.2948070953779953
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0038_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0038_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0038_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0038_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0038_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0038_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0038_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0038_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0038_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0038_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0038_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0038_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0038_B12.npy"
+    },
+    "captions": [
+      "Agricultural cropland with high NDVI (0.78) showing active vegetation and strong red-edge response typical of healthy crops",
+      "Cultivated fields displaying high near-infrared reflectance and NDVI of 0.78, indicating productive agricultural land",
+      "Farmland with vegetation index of 0.78 and spectral signature consistent with growing crops in good condition"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Agriculture"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.78"
+      },
+      {
+        "question": "What type of agriculture is visible?",
+        "answer": "Active cropland with high vegetation index indicating growing crops"
+      },
+      {
+        "question": "Are the crops healthy?",
+        "answer": "Yes, NDVI of 0.78 indicates healthy, vigorous crop growth"
+      },
+      {
+        "question": "What spectral features indicate crops?",
+        "answer": "High NIR reflectance and strong red-edge response are typical of healthy crops"
+      }
+    ]
+  },
+  {
+    "sample_id": 39,
+    "land_cover": "agriculture",
+    "spectral_indices": {
+      "NDVI": 0.771333749951689,
+      "NDWI": -0.745647803112701,
+      "NDBI": -0.29592686927145134
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0039_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0039_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0039_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0039_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0039_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0039_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0039_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0039_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0039_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0039_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0039_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0039_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0039_B12.npy"
+    },
+    "captions": [
+      "Agricultural cropland with high NDVI (0.77) showing active vegetation and strong red-edge response typical of healthy crops",
+      "Cultivated fields displaying high near-infrared reflectance and NDVI of 0.77, indicating productive agricultural land",
+      "Farmland with vegetation index of 0.77 and spectral signature consistent with growing crops in good condition"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Agriculture"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.77"
+      },
+      {
+        "question": "What type of agriculture is visible?",
+        "answer": "Active cropland with high vegetation index indicating growing crops"
+      },
+      {
+        "question": "Are the crops healthy?",
+        "answer": "Yes, NDVI of 0.77 indicates healthy, vigorous crop growth"
+      },
+      {
+        "question": "What spectral features indicate crops?",
+        "answer": "High NIR reflectance and strong red-edge response are typical of healthy crops"
+      }
+    ]
+  },
+  {
+    "sample_id": 40,
+    "land_cover": "bare_soil",
+    "spectral_indices": {
+      "NDVI": 0.20577538943291326,
+      "NDWI": -0.3143438284123352,
+      "NDBI": 0.0787601145999307
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0040_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0040_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0040_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0040_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0040_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0040_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0040_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0040_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0040_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0040_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0040_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0040_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0040_B12.npy"
+    },
+    "captions": [
+      "Bare soil surface with low NDVI (0.21) and high SWIR reflectance, showing minimal vegetation cover",
+      "Exposed ground with vegetation index near zero and spectral characteristics typical of dry, unvegetated soil",
+      "Non-vegetated terrain with NDVI of 0.21 and positive NDBI, indicating bare earth or sparse vegetation"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Bare Soil"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.21"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "No or minimal vegetation, NDVI is only 0.21"
+      },
+      {
+        "question": "What type of surface is this?",
+        "answer": "Bare soil or exposed ground with minimal vegetation cover"
+      },
+      {
+        "question": "What spectral signature indicates bare soil?",
+        "answer": "Low NDVI, moderate SWIR reflectance, and lack of NIR-Red contrast"
+      }
+    ]
+  },
+  {
+    "sample_id": 41,
+    "land_cover": "bare_soil",
+    "spectral_indices": {
+      "NDVI": 0.20463355052836962,
+      "NDWI": -0.3079181174631932,
+      "NDBI": 0.08218473520007263
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0041_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0041_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0041_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0041_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0041_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0041_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0041_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0041_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0041_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0041_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0041_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0041_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0041_B12.npy"
+    },
+    "captions": [
+      "Bare soil surface with low NDVI (0.20) and high SWIR reflectance, showing minimal vegetation cover",
+      "Exposed ground with vegetation index near zero and spectral characteristics typical of dry, unvegetated soil",
+      "Non-vegetated terrain with NDVI of 0.20 and positive NDBI, indicating bare earth or sparse vegetation"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Bare Soil"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.20"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "No or minimal vegetation, NDVI is only 0.20"
+      },
+      {
+        "question": "What type of surface is this?",
+        "answer": "Bare soil or exposed ground with minimal vegetation cover"
+      },
+      {
+        "question": "What spectral signature indicates bare soil?",
+        "answer": "Low NDVI, moderate SWIR reflectance, and lack of NIR-Red contrast"
+      }
+    ]
+  },
+  {
+    "sample_id": 42,
+    "land_cover": "bare_soil",
+    "spectral_indices": {
+      "NDVI": 0.20739759416629827,
+      "NDWI": -0.3070835117802263,
+      "NDBI": 0.08085916503492661
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0042_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0042_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0042_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0042_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0042_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0042_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0042_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0042_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0042_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0042_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0042_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0042_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0042_B12.npy"
+    },
+    "captions": [
+      "Bare soil surface with low NDVI (0.21) and high SWIR reflectance, showing minimal vegetation cover",
+      "Exposed ground with vegetation index near zero and spectral characteristics typical of dry, unvegetated soil",
+      "Non-vegetated terrain with NDVI of 0.21 and positive NDBI, indicating bare earth or sparse vegetation"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Bare Soil"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.21"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "No or minimal vegetation, NDVI is only 0.21"
+      },
+      {
+        "question": "What type of surface is this?",
+        "answer": "Bare soil or exposed ground with minimal vegetation cover"
+      },
+      {
+        "question": "What spectral signature indicates bare soil?",
+        "answer": "Low NDVI, moderate SWIR reflectance, and lack of NIR-Red contrast"
+      }
+    ]
+  },
+  {
+    "sample_id": 43,
+    "land_cover": "bare_soil",
+    "spectral_indices": {
+      "NDVI": 0.20481482825677336,
+      "NDWI": -0.30756960937422473,
+      "NDBI": 0.08152391480535867
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0043_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0043_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0043_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0043_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0043_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0043_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0043_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0043_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0043_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0043_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0043_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0043_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0043_B12.npy"
+    },
+    "captions": [
+      "Bare soil surface with low NDVI (0.20) and high SWIR reflectance, showing minimal vegetation cover",
+      "Exposed ground with vegetation index near zero and spectral characteristics typical of dry, unvegetated soil",
+      "Non-vegetated terrain with NDVI of 0.20 and positive NDBI, indicating bare earth or sparse vegetation"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Bare Soil"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.20"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "No or minimal vegetation, NDVI is only 0.20"
+      },
+      {
+        "question": "What type of surface is this?",
+        "answer": "Bare soil or exposed ground with minimal vegetation cover"
+      },
+      {
+        "question": "What spectral signature indicates bare soil?",
+        "answer": "Low NDVI, moderate SWIR reflectance, and lack of NIR-Red contrast"
+      }
+    ]
+  },
+  {
+    "sample_id": 44,
+    "land_cover": "bare_soil",
+    "spectral_indices": {
+      "NDVI": 0.21079925748142286,
+      "NDWI": -0.3042723132919188,
+      "NDBI": 0.07677103294799525
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0044_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0044_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0044_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0044_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0044_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0044_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0044_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0044_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0044_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0044_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0044_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0044_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0044_B12.npy"
+    },
+    "captions": [
+      "Bare soil surface with low NDVI (0.21) and high SWIR reflectance, showing minimal vegetation cover",
+      "Exposed ground with vegetation index near zero and spectral characteristics typical of dry, unvegetated soil",
+      "Non-vegetated terrain with NDVI of 0.21 and positive NDBI, indicating bare earth or sparse vegetation"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Bare Soil"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.21"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "No or minimal vegetation, NDVI is only 0.21"
+      },
+      {
+        "question": "What type of surface is this?",
+        "answer": "Bare soil or exposed ground with minimal vegetation cover"
+      },
+      {
+        "question": "What spectral signature indicates bare soil?",
+        "answer": "Low NDVI, moderate SWIR reflectance, and lack of NIR-Red contrast"
+      }
+    ]
+  },
+  {
+    "sample_id": 45,
+    "land_cover": "bare_soil",
+    "spectral_indices": {
+      "NDVI": 0.20430459452906388,
+      "NDWI": -0.30485555334493897,
+      "NDBI": 0.07908809477989337
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0045_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0045_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0045_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0045_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0045_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0045_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0045_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0045_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0045_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0045_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0045_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0045_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0045_B12.npy"
+    },
+    "captions": [
+      "Bare soil surface with low NDVI (0.20) and high SWIR reflectance, showing minimal vegetation cover",
+      "Exposed ground with vegetation index near zero and spectral characteristics typical of dry, unvegetated soil",
+      "Non-vegetated terrain with NDVI of 0.20 and positive NDBI, indicating bare earth or sparse vegetation"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Bare Soil"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.20"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "No or minimal vegetation, NDVI is only 0.20"
+      },
+      {
+        "question": "What type of surface is this?",
+        "answer": "Bare soil or exposed ground with minimal vegetation cover"
+      },
+      {
+        "question": "What spectral signature indicates bare soil?",
+        "answer": "Low NDVI, moderate SWIR reflectance, and lack of NIR-Red contrast"
+      }
+    ]
+  },
+  {
+    "sample_id": 46,
+    "land_cover": "bare_soil",
+    "spectral_indices": {
+      "NDVI": 0.21015902987451626,
+      "NDWI": -0.30599893474081963,
+      "NDBI": 0.07859057392083595
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0046_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0046_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0046_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0046_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0046_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0046_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0046_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0046_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0046_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0046_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0046_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0046_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0046_B12.npy"
+    },
+    "captions": [
+      "Bare soil surface with low NDVI (0.21) and high SWIR reflectance, showing minimal vegetation cover",
+      "Exposed ground with vegetation index near zero and spectral characteristics typical of dry, unvegetated soil",
+      "Non-vegetated terrain with NDVI of 0.21 and positive NDBI, indicating bare earth or sparse vegetation"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Bare Soil"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.21"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "No or minimal vegetation, NDVI is only 0.21"
+      },
+      {
+        "question": "What type of surface is this?",
+        "answer": "Bare soil or exposed ground with minimal vegetation cover"
+      },
+      {
+        "question": "What spectral signature indicates bare soil?",
+        "answer": "Low NDVI, moderate SWIR reflectance, and lack of NIR-Red contrast"
+      }
+    ]
+  },
+  {
+    "sample_id": 47,
+    "land_cover": "bare_soil",
+    "spectral_indices": {
+      "NDVI": 0.20856623663889845,
+      "NDWI": -0.310643903767183,
+      "NDBI": 0.07683413363303822
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0047_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0047_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0047_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0047_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0047_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0047_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0047_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0047_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0047_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0047_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0047_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0047_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0047_B12.npy"
+    },
+    "captions": [
+      "Bare soil surface with low NDVI (0.21) and high SWIR reflectance, showing minimal vegetation cover",
+      "Exposed ground with vegetation index near zero and spectral characteristics typical of dry, unvegetated soil",
+      "Non-vegetated terrain with NDVI of 0.21 and positive NDBI, indicating bare earth or sparse vegetation"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Bare Soil"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.21"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "No or minimal vegetation, NDVI is only 0.21"
+      },
+      {
+        "question": "What type of surface is this?",
+        "answer": "Bare soil or exposed ground with minimal vegetation cover"
+      },
+      {
+        "question": "What spectral signature indicates bare soil?",
+        "answer": "Low NDVI, moderate SWIR reflectance, and lack of NIR-Red contrast"
+      }
+    ]
+  },
+  {
+    "sample_id": 48,
+    "land_cover": "bare_soil",
+    "spectral_indices": {
+      "NDVI": 0.20599110106498764,
+      "NDWI": -0.30890661506121697,
+      "NDBI": 0.07684533012589123
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0048_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0048_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0048_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0048_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0048_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0048_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0048_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0048_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0048_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0048_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0048_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0048_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0048_B12.npy"
+    },
+    "captions": [
+      "Bare soil surface with low NDVI (0.21) and high SWIR reflectance, showing minimal vegetation cover",
+      "Exposed ground with vegetation index near zero and spectral characteristics typical of dry, unvegetated soil",
+      "Non-vegetated terrain with NDVI of 0.21 and positive NDBI, indicating bare earth or sparse vegetation"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Bare Soil"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.21"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "No or minimal vegetation, NDVI is only 0.21"
+      },
+      {
+        "question": "What type of surface is this?",
+        "answer": "Bare soil or exposed ground with minimal vegetation cover"
+      },
+      {
+        "question": "What spectral signature indicates bare soil?",
+        "answer": "Low NDVI, moderate SWIR reflectance, and lack of NIR-Red contrast"
+      }
+    ]
+  },
+  {
+    "sample_id": 49,
+    "land_cover": "bare_soil",
+    "spectral_indices": {
+      "NDVI": 0.21623208630958912,
+      "NDWI": -0.3060099052179047,
+      "NDBI": 0.07671235380863563
+    },
+    "bands": {
+      "B01": "data\\raw\\sentinel2_multispectral\\sample_0049_B01.npy",
+      "B02": "data\\raw\\sentinel2_multispectral\\sample_0049_B02.npy",
+      "B03": "data\\raw\\sentinel2_multispectral\\sample_0049_B03.npy",
+      "B04": "data\\raw\\sentinel2_multispectral\\sample_0049_B04.npy",
+      "B05": "data\\raw\\sentinel2_multispectral\\sample_0049_B05.npy",
+      "B06": "data\\raw\\sentinel2_multispectral\\sample_0049_B06.npy",
+      "B07": "data\\raw\\sentinel2_multispectral\\sample_0049_B07.npy",
+      "B08": "data\\raw\\sentinel2_multispectral\\sample_0049_B08.npy",
+      "B8A": "data\\raw\\sentinel2_multispectral\\sample_0049_B8A.npy",
+      "B09": "data\\raw\\sentinel2_multispectral\\sample_0049_B09.npy",
+      "B10": "data\\raw\\sentinel2_multispectral\\sample_0049_B10.npy",
+      "B11": "data\\raw\\sentinel2_multispectral\\sample_0049_B11.npy",
+      "B12": "data\\raw\\sentinel2_multispectral\\sample_0049_B12.npy"
+    },
+    "captions": [
+      "Bare soil surface with low NDVI (0.22) and high SWIR reflectance, showing minimal vegetation cover",
+      "Exposed ground with vegetation index near zero and spectral characteristics typical of dry, unvegetated soil",
+      "Non-vegetated terrain with NDVI of 0.22 and positive NDBI, indicating bare earth or sparse vegetation"
+    ],
+    "qa_pairs": [
+      {
+        "question": "What type of land cover is visible in this image?",
+        "answer": "Bare Soil"
+      },
+      {
+        "question": "What is the NDVI value?",
+        "answer": "The NDVI is approximately 0.22"
+      },
+      {
+        "question": "Is there vegetation present?",
+        "answer": "No or minimal vegetation, NDVI is only 0.22"
+      },
+      {
+        "question": "What type of surface is this?",
+        "answer": "Bare soil or exposed ground with minimal vegetation cover"
+      },
+      {
+        "question": "What spectral signature indicates bare soil?",
+        "answer": "Low NDVI, moderate SWIR reflectance, and lack of NIR-Red contrast"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+# Not Needed Files (Legacy/Alternative/Temporary)
+
+The following files are identified as not strictly necessary for the core functionality of the EarthAware project, primarily consisting of legacy prototypes, alternative experiments, or build artifacts.
+
+## Legacy Prototypes
+- `earthaware/frontend_App.js`
+- `earthaware/frontend_App.css`
+- `earthaware/frontend_package.json`
+- `earthaware/research_chat_ui.html`
+
+## Alternative Experiments
+- `earthaware/backend_graphql.py`
+- `EO-project/EO-GPTOSS/backend_graphql.py`
+- `earthaware/baseline_small.py`
+- `earthaware/baseline_test.py`
+
+## Documentation/Proposal (Non-code)
+- `ISRO MULTIMODAL SATELLITE IMAGERY PROJECT day 1.docx`
+- `ISRO MULTIMODAL SATELLITE IMAGERY PROJECT day 1.pdf`
+
+## Build Artifacts/Dependencies (Usually ignored)
+- `earthaware/geo-research-assistant/backend/dist/`
+- `earthaware/geo-research-assistant/frontend/dist/`
+- `earthaware/geo-research-assistant/backend/node_modules/`
+- `earthaware/geo-research-assistant/frontend/node_modules/`
