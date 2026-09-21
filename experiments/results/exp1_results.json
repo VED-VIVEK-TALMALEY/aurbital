@@ -1,0 +1,38 @@
+{
+  "entity": "region_0",
+  "horizon": 24,
+  "rmse": {
+    "persistence": {
+      "ndvi": 0.35290855072726945,
+      "soil_moisture": 0.04509147340088294,
+      "temperature": 3.3287473943307346,
+      "stress": 0.0,
+      "mean": 0.9316868546147218
+    },
+    "ar1": {
+      "ndvi": 0.45284797744374666,
+      "soil_moisture": 0.02303745588969449,
+      "temperature": 3.044570192710379,
+      "stress": 0.011993963219601606,
+      "mean": 0.8831123973158554
+    },
+    "retrieval": {
+      "ndvi": 0.2476949200111117,
+      "soil_moisture": 0.05099408719627738,
+      "temperature": 4.434976088371521,
+      "stress": 0.0048186965197128005,
+      "mean": 1.1846209480246557
+    },
+    "orbital": {
+      "ndvi": 0.26664620223672664,
+      "soil_moisture": 0.03309799630102307,
+      "temperature": 1.379865146274736,
+      "stress": 0.00019321929569252787,
+      "mean": 0.4199506410270446
+    }
+  },
+  "skill_vs_persistence": 0.5492577372461633,
+  "counterfactual_violations": 0,
+  "counterfactual_steps": 24,
+  "spread_error_spearman": 0.7024688008681498
+}

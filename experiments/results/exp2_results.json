@@ -1,0 +1,36 @@
+{
+  "n_points": 768,
+  "spread_error_rank_corr": 0.6369736662524181,
+  "spread_rescale_factor": 171.59629543850485,
+  "ece_after_rescaling": 0.22038194444444445,
+  "ece_raw": 0.43934895833333326,
+  "coverage": [
+    {
+      "nominal": 0.25,
+      "empirical": 0.6067708333333334
+    },
+    {
+      "nominal": 0.5,
+      "empirical": 0.6223958333333334
+    },
+    {
+      "nominal": 0.8,
+      "empirical": 0.6588541666666666
+    },
+    {
+      "nominal": 0.9,
+      "empirical": 0.6875
+    },
+    {
+      "nominal": 0.95,
+      "empirical": 0.7109375
+    },
+    {
+      "nominal": 0.99,
+      "empirical": 0.7395833333333334
+    }
+  ],
+  "posterior_var_active": 2.3424,
+  "posterior_var_random": 2.5847270399999998,
+  "active_efficiency_gain": 0.09375343556586913
+}
