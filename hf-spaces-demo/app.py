@@ -12,6 +12,14 @@ import math
 import hashlib
 from datetime import datetime, timezone
 
+# ── Session State Initialization ────────────────────────────────
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+if "current_analysis" not in st.session_state:
+    st.session_state.current_analysis = None
+if "analysis_count" not in st.session_state:
+    st.session_state.analysis_count = 0
+
 # ── Page Config ──────────────────────────────────────────────
 st.set_page_config(
     page_title="Aurbital — EO Intelligence Platform",
